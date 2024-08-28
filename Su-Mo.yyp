@@ -34,7 +34,12 @@
   },
   "name":"Su-Mo",
   "resources":[
+    {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},},
+    {"id":{"name":"Food","path":"objects/Food/Food.yy",},},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Kingpin","path":"sprites/Kingpin/Kingpin.yy",},},
+    {"id":{"name":"Sumo","path":"sprites/Sumo/Sumo.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
