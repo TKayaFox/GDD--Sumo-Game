@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Test",
-    "path":"sprites/Test/Test.yy",
+    "name":"Meat",
+    "path":"sprites/Meat/Meat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
