@@ -39,6 +39,8 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Start","path":"objects/Start/Start.yy",},},
     {"id":{"name":"TitleDisplay","path":"objects/TitleDisplay/TitleDisplay.yy",},},
+    {"id":{"name":"EndScreen1","path":"rooms/EndScreen1/EndScreen1.yy",},},
+    {"id":{"name":"EndScreen2","path":"rooms/EndScreen2/EndScreen2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"CollisionBoom","path":"sprites/CollisionBoom/CollisionBoom.yy",},},
@@ -53,6 +55,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"EndScreen1","path":"rooms/EndScreen1/EndScreen1.yy",},},
+    {"roomId":{"name":"EndScreen2","path":"rooms/EndScreen2/EndScreen2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
