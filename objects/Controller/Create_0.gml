@@ -9,4 +9,4 @@ player_two_wins = 1;
 pickup_spawn_time = 2 * game_get_speed(gamespeed_fps);
 
 // Sets the time for the alarm that controls the pickups
-//alarm_set(0, pickup_spawn_time);
+alarm_set(0, pickup_spawn_time);
