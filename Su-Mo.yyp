@@ -42,6 +42,7 @@
     {"id":{"name":"Kingpin","path":"sprites/Kingpin/Kingpin.yy",},},
     {"id":{"name":"Sumo","path":"sprites/Sumo/Sumo.yy",},},
     {"id":{"name":"Test","path":"sprites/Test/Test.yy",},},
+    {"id":{"name":"Test2","path":"sprites/Test2/Test2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
