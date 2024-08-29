@@ -39,8 +39,6 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Start","path":"objects/Start/Start.yy",},},
     {"id":{"name":"TitleDisplay","path":"objects/TitleDisplay/TitleDisplay.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"Kingpin","path":"sprites/Kingpin/Kingpin.yy",},},
     {"id":{"name":"StartButton","path":"sprites/StartButton/StartButton.yy",},},
@@ -52,7 +50,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
