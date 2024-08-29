@@ -39,6 +39,7 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Start","path":"objects/Start/Start.yy",},},
     {"id":{"name":"TitleDisplay","path":"objects/TitleDisplay/TitleDisplay.yy",},},
+    {"id":{"name":"VictoryText1","path":"objects/VictoryText1/VictoryText1.yy",},},
     {"id":{"name":"EndScreen1","path":"rooms/EndScreen1/EndScreen1.yy",},},
     {"id":{"name":"EndScreen2","path":"rooms/EndScreen2/EndScreen2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
