@@ -45,6 +45,7 @@
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"CollisionBoom","path":"sprites/CollisionBoom/CollisionBoom.yy",},},
     {"id":{"name":"Kingpin","path":"sprites/Kingpin/Kingpin.yy",},},
+    {"id":{"name":"Meat","path":"sprites/Meat/Meat.yy",},},
     {"id":{"name":"StartButton","path":"sprites/StartButton/StartButton.yy",},},
     {"id":{"name":"Sumo","path":"sprites/Sumo/Sumo.yy",},},
     {"id":{"name":"Test","path":"sprites/Test/Test.yy",},},
