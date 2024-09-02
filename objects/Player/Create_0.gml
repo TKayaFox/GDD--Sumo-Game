@@ -1,5 +1,6 @@
-/// @description Set Sumo Size
-// You can write your code in this editor
+/// @description Instantiate Sumo
+
+//set Initial Size
 image_xscale = 36 / 5000;
 image_yscale = 36 / 5000;
 

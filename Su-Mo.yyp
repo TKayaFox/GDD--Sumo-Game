@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},},
     {"id":{"name":"Food","path":"objects/Food/Food.yy",},},
+    {"id":{"name":"Obstacle_Parent","path":"objects/Obstacle_Parent/Obstacle_Parent.yy",},},
     {"id":{"name":"Player_2","path":"objects/Player_2/Player_2.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Start","path":"objects/Start/Start.yy",},},
