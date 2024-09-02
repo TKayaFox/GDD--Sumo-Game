@@ -7,9 +7,30 @@ move_right = keyboard_check(ord("D"));
 move_up = -keyboard_check(ord("W"));
 move_down = keyboard_check(ord("S"));
 
-//Apply any directional input to Player allowing them to move on x and y axis
+//get movement vectors from any directional input
 hsp = (move_left + move_right)* movespeed;
-x += hsp
-
 vsp = (move_up + move_down)* movespeed;
+
+//On collision with an obstacle parent, modify speed depending on that objects pushforce 
+
+//Check for collision objects
+var otherCollision = instance_place(x + hsp, y + vsp, Obstacle_Parent);
+
+//Modify speed as needed for collision objects
+if (otherCollision != noone)
+{
+	//Calculate push force difference between this object and otherCollision object with minimum 0
+	collisionPush = pushForce -  otherCollision.pushForce;
+	
+	//Modify movement vectors for this object as needed	
+    hsp *= collisionPush;
+    vsp *= collisionPush;
+	
+	//Move oposing object
+    otherCollision.y += hsp;
+    otherCollision.x += vsp;
+}
+
+//Move Player as needed
 y+= vsp
+x += hsp

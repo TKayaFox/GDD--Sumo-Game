@@ -9,7 +9,9 @@
   ],
   "managed":true,
   "name":"Player",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obstacle_Parent","path":"objects/Obstacle_Parent/Obstacle_Parent.yy",},"propertyId":{"name":"pushForce","path":"objects/Obstacle_Parent/Obstacle_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.1",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
