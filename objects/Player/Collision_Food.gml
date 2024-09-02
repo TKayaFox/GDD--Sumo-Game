@@ -7,4 +7,4 @@ image_yscale *= 1.5;
 instance_destroy(other)
 
 //Increase pushForce (Ability to push other objects)
-pushforce *=1.5;
+pushForce *=1.5;

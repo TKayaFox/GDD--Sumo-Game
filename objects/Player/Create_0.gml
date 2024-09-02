@@ -10,4 +10,4 @@ vsp = 0;
 hsp = 0;
 
 //Set initial Push force (Ability to push opposing objects
-pushForce = 1;
+pushForce = .1;

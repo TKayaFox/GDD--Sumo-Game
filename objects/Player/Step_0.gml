@@ -27,10 +27,10 @@ if (otherCollision != noone)
     vsp *= collisionPush;
 	
 	//Move oposing object
-    otherCollision.y += hsp;
-    otherCollision.x += vsp;
+    otherCollision.x += hsp;
+    otherCollision.y += vsp;
 }
 
 //Move Player as needed
-y+= vsp
 x += hsp
+y += vsp
