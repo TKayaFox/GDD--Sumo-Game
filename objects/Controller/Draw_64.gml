@@ -33,3 +33,15 @@ for (var i = player_two_wins; i < 2; i++)
 	draw_sprite(Test2, 0, (room_width - (10 + notch_width)) - notch_offset, 10);
 	notch_offset += notch_width + notch_spacing;
 }
+
+//player 1 wins
+if (player_one_wins == 3)
+{
+	room_goto(rm_end_screen1)
+}
+
+//player two wins
+if (player_two_wins == 3)
+{
+	room_goto(rm_end_screen2)
+}
