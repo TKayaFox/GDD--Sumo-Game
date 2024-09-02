@@ -1,5 +1,4 @@
 /// @description HUD
-// You can write your code in this editor
 
 var notch_width = sprite_get_width(Test); // The width of the win notches
 var notch_offset = 0; // The offset from the spawn origin

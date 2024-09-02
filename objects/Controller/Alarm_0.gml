@@ -1,5 +1,4 @@
-/// @description Spawns pickups
-// You can write your code in this editor
+/// @description Spawns pickups at random intervals
 
 // Generates random coordinates to spawn pickup at
 var pickup_spawn_x = irandom_range(0, room_width);

@@ -1,5 +1,4 @@
-/// @description Intial busywork
-// You can write your code in this editor
+/// @description Intialization busywork
 
 //Variables for storing the amount of wins each player has
 player_one_wins = 2;
