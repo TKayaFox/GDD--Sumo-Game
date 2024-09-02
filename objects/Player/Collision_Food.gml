@@ -3,7 +3,8 @@
 image_xscale *= 1.5;   //Double the Sumo's image
 image_yscale *= 1.5;
 
-// Still need to double sumo's hitbox
-
 //Destroys food
 instance_destroy(other)
+
+//Increase pushForce (Ability to push other objects)
+pushForce *=1.5;
