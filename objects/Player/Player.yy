@@ -38,7 +38,12 @@
     {"x":0.0,"y":5000.0,},
   ],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"up_key","filters":[],"listItems":[],"multiselect":false,"name":"up_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ord(\"W\")","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"down_key","filters":[],"listItems":[],"multiselect":false,"name":"down_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ord(\"S\")","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"left_key","filters":[],"listItems":[],"multiselect":false,"name":"left_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ord(\"A\")","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"right_key","filters":[],"listItems":[],"multiselect":false,"name":"right_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ord(\"D\")","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
