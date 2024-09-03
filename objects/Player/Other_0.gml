@@ -8,6 +8,7 @@ instance_destroy(Player_2);
 in the room again*/
 Controller.player2_score ++;
 Controller.game_round ++;
+Controller.player_two_wins ++;
 
 instance_create_layer(1088,640, "Instances",Player)
 instance_create_layer(192,96, "Instances",Player_2)
