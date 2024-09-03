@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Food",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Debuff_Food",
+  "eventList":[],
   "managed":true,
-  "name":"Food",
+  "name":"Debuff_Food",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pickups",
-    "path":"folders/Objects/Pickups.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"PickupParent",
-    "path":"objects/PickupParent/PickupParent.yy",
+    "name":"Food",
+    "path":"objects/Food/Food.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Meat",
-    "path":"sprites/Meat/Meat.yy",
+    "name":"Spoil_Meat",
+    "path":"sprites/Spoil_Meat/Spoil_Meat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
