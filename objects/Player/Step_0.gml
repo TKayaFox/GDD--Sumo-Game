@@ -33,6 +33,7 @@ if (otherCollision != noone)
 	//Move oposing object
     otherCollision.x += hsp;
     otherCollision.y += vsp;
+	
 }
 
 //Move Player as needed
