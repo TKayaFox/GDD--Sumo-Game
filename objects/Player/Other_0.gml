@@ -14,9 +14,7 @@ else
 instance_destroy();
 instance_destroy(Player_2);
 
-//EDIT: Need to update score
-/*Edit (from John) updates player score and game round, resets character by creating them
-in the room again*/
+//updates player score and game round, resets character by re-creating them in the room again
 Controller.player2_score ++;
 Controller.game_round ++;
 
