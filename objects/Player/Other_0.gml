@@ -1,5 +1,4 @@
 /// @description Destroy and Update Score
-// You can write your code in this editor
 
 //get the score from the controller object
 if (obj_player)
