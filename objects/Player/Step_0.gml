@@ -2,10 +2,10 @@
 
 //Collect movement input
 //	Note: Movement input is currently hardcoded to allow different inputs for Player 1 and Player 2
-move_left = -keyboard_check(ord("A"));
-move_right = keyboard_check(ord("D"));
-move_up = -keyboard_check(ord("W"));
-move_down = keyboard_check(ord("S"));
+var move_left = -keyboard_check(left_key);
+var move_right = keyboard_check(right_key);
+var move_up = -keyboard_check(up_key);
+var move_down = keyboard_check(down_key);
 
 //get movement vectors from any directional input
 hsp = (move_left + move_right)* movespeed;
