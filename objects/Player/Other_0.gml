@@ -1,16 +1,6 @@
 instance_create_layer(192,96, "Instances",Player_2)
 /// @description Destroy and Update Score
 
-//get the score from the controller object
-if (Player)
-{
-	Controller.player_two_wins++;
-}
-else
-{
-	Controller.player_one_wins++;
-}
-
 //destroy the player
 instance_destroy();
 instance_destroy(Player_2);
