@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Food",
+  "%Name":"Obstacle_Parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Food",
+  "name":"Obstacle_Parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,14 +26,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"pushForce","filters":[],"listItems":[],"multiselect":false,"name":"pushForce","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Meat",
-    "path":"sprites/Meat/Meat.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

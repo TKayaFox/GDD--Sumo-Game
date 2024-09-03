@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Food",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Restart",
+  "eventList":[],
   "managed":true,
-  "name":"Food",
+  "name":"Restart",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Start",
+    "path":"objects/Start/Start.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Meat",
-    "path":"sprites/Meat/Meat.yy",
+    "name":"RestartButton",
+    "path":"sprites/RestartButton/RestartButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,
