@@ -8,5 +8,5 @@ Controller.player1_score ++;
 Controller.game_round ++;
 Controller.player_one_wins ++;
 
-instance_create_layer(1088,640, "Instances",Player)
-instance_create_layer(192,96, "Instances",Player_2)
+instance_create_layer(575,383, "Instances",Player)
+instance_create_layer(735,383, "Instances",Player_2)
