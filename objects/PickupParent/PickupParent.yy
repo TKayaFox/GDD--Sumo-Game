@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Food",
-  "eventList":[],
+  "%Name":"PickupParent",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Food",
+  "name":"PickupParent",
   "overriddenProperties":[],
   "parent":{
     "name":"Pickups",
     "path":"folders/Objects/Pickups.yy",
   },
-  "parentObjectId":{
-    "name":"PickupParent",
-    "path":"objects/PickupParent/PickupParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Meat",
-    "path":"sprites/Meat/Meat.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

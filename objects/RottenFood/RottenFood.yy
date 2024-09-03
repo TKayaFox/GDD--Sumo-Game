@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Food",
+  "%Name":"RottenFood",
   "eventList":[],
   "managed":true,
-  "name":"Food",
+  "name":"RottenFood",
   "overriddenProperties":[],
   "parent":{
     "name":"Pickups",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Meat",
-    "path":"sprites/Meat/Meat.yy",
+    "name":"Test",
+    "path":"sprites/Test/Test.yy",
   },
   "spriteMaskId":null,
   "visible":true,
