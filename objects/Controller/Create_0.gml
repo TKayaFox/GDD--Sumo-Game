@@ -1,8 +1,8 @@
 /// @description Intialization busywork
 
 //Variables for storing the amount of wins each player has
-player_one_wins = 2;
-player_two_wins = 1;
+player_one_wins = 0;
+player_two_wins = 0;
 
 //The spawn timer for the in seconds multiplied by the game speed
 pickup_spawn_time = 2 * game_get_speed(gamespeed_fps);
