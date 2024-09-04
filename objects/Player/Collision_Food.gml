@@ -7,3 +7,20 @@ instance_destroy(other)
 
 //Increase pushForce (Ability to push other objects)
 pushForce *= 2;
+
+
+//Check for collision objects after rescaling
+var otherCollision = instance_place(x, y, Obstacle_Parent);
+
+//Move all opposing obstacles outside of collision zone
+while (otherCollision != noone)
+{
+	//Move opposing obstacle outside of collision zone
+	// Determine which direction to push the obstacle and make a new vector
+    var dirX = otherCollision.x - x;
+    var dirY = otherCollision.y - y;
+	
+	//Push the obstacle in the vector direction
+	otherCollision.x+= dirx;
+	otherCollision.x+= dirx;
+}
