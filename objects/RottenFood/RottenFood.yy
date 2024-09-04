@@ -10,8 +10,8 @@
     "path":"folders/Objects/Pickups.yy",
   },
   "parentObjectId":{
-    "name":"PickupParent",
-    "path":"objects/PickupParent/PickupParent.yy",
+    "name":"Food",
+    "path":"objects/Food/Food.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Test",
-    "path":"sprites/Test/Test.yy",
+    "name":"Spoil_Meat",
+    "path":"sprites/Spoil_Meat/Spoil_Meat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
