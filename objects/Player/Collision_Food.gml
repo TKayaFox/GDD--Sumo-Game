@@ -17,10 +17,10 @@ while (otherCollision != noone)
 {
 	//Move opposing obstacle outside of collision zone
 	// Determine which direction to push the obstacle and make a new vector
-    var dirX = otherCollision.x - x;
-    var dirY = otherCollision.y - y;
+    var pushX = otherCollision.x - x;
+    var pushY = otherCollision.y - y;
 	
 	//Push the obstacle in the vector direction
-	otherCollision.x+= dirx;
-	otherCollision.x+= dirx;
+	otherCollision.x+= pushX;
+	otherCollision.y+= pushY;
 }
