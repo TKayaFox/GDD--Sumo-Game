@@ -4,7 +4,7 @@
 //	Note: Movement input is currently hardcoded to allow different inputs for Player 1 and Player 2
 
 //Use movement script
-movement(keyboard_check(ord("A")), keyboard_check(ord("D")), keyboard_check(ord("W")), keyboard_check(ord("S")), hsp, vsp, movespeed);
+movement(keyboard_check(vk_left), keyboard_check(vk_right), keyboard_check(vk_up), keyboard_check(vk_down), hsp, vsp, movespeed);
 
 //On collision with an obstacle parent, modify speed depending on that objects pushforce 
 
@@ -30,4 +30,3 @@ if (otherCollision != noone)
     otherCollision.y += vsp;
 	
 }
-

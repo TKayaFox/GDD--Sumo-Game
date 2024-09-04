@@ -1,4 +1,3 @@
-instance_create_layer(192,96, "Instances",Player_2)
 /// @description Destroy and Update Score
 
 //destroy the player
