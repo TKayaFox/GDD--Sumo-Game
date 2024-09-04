@@ -1,4 +1,6 @@
-/// @description Destroy and Update Score
+/// @description Destroy and Update score
+
+instance_create_layer(192,96, "Instances",Player_2)
 
 //destroy the player
 instance_destroy();

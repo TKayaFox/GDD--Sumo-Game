@@ -58,6 +58,7 @@
     {"id":{"name":"Kingpin","path":"sprites/Kingpin/Kingpin.yy",},},
     {"id":{"name":"Meat","path":"sprites/Meat/Meat.yy",},},
     {"id":{"name":"RestartButton","path":"sprites/RestartButton/RestartButton.yy",},},
+    {"id":{"name":"Spoil_Meat","path":"sprites/Spoil_Meat/Spoil_Meat.yy",},},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
     {"id":{"name":"StartButton","path":"sprites/StartButton/StartButton.yy",},},
     {"id":{"name":"Sumo","path":"sprites/Sumo/Sumo.yy",},},
