@@ -4,9 +4,9 @@
 //	Note: Movement input is currently hardcoded to allow different inputs for Player 1 and Player 2
 
 //Use movement script
-movement(keyboard_check(ord("A")), keyboard_check(ord("D")), keyboard_check(ord("W")), keyboard_check(ord("S")), hsp, vsp, movespeed);
+movement(keyboard_check(left_key), keyboard_check(right_key), keyboard_check(up_key), keyboard_check(down_key), hsp, vsp, movespeed);
 
-///On collision with an obstacle parent, modify speed depending on that objects pushforce 
+//On collision with an obstacle parent, modify speed depending on that objects pushforce 
 
 //Check for collision objects
 var otherCollision = instance_place(x + hsp, y + vsp, Obstacle_Parent);
@@ -28,5 +28,5 @@ if (otherCollision != noone)
 	//Move oposing object
     otherCollision.x += hsp;
     otherCollision.y += vsp;
+	
 }
-
