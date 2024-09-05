@@ -34,14 +34,13 @@ for (var i = player_two_wins; i < 2; i++)
 	notch_offset += notch_width + notch_spacing;
 }
 
-//player 1 wins
-if (player_one_wins == 3)
+// Go to win room once winning score is reached
+if player1_score = 3
 {
-	room_goto(rm_end_screen1)
+	room_goto(EndScreen1)
 }
 
-//player two wins
-if (player_two_wins == 3)
+if player2_score = 3
 {
-	room_goto(rm_end_screen2)
+	room_goto(EndScreen2)
 }

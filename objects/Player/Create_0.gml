@@ -2,7 +2,7 @@
 
 //set Initial Size
 image_xscale = 128 / 5000;
-image_yscale =  128 / 5000;
+image_yscale = 128 / 5000;
 
 // Variables for controling movement speed and vector
 movespeed = 5;
