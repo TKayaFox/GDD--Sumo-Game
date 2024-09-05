@@ -1,12 +1,6 @@
-<<<<<<< Updated upstream
 /// @description Destroy and Update Score
 
 //destroy the player
-=======
-/// @description Destroy and Update score
-
-// Destroy the player
->>>>>>> Stashed changes
 instance_destroy();
 instance_destroy(Player_2);
 
