@@ -35,6 +35,7 @@
   },
   "name":"Su-Mo",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},},
     {"id":{"name":"Food","path":"objects/Food/Food.yy",},},
     {"id":{"name":"obj_CollisionBoom","path":"objects/obj_CollisionBoom/obj_CollisionBoom.yy",},},
@@ -53,7 +54,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"CollisionBoom","path":"sprites/CollisionBoom/CollisionBoom.yy",},},
-    {"id":{"name":"Instructions","path":"sprites/Instructions/Instructions.yy",},},
+    {"id":{"name":"InstructionsP1","path":"sprites/InstructionsP1/InstructionsP1.yy",},},
+    {"id":{"name":"InstructionsP2","path":"sprites/InstructionsP2/InstructionsP2.yy",},},
     {"id":{"name":"Kingpin","path":"sprites/Kingpin/Kingpin.yy",},},
     {"id":{"name":"Meat","path":"sprites/Meat/Meat.yy",},},
     {"id":{"name":"RestartButton","path":"sprites/RestartButton/RestartButton.yy",},},
