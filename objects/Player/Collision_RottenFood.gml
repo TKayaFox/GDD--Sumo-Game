@@ -1,7 +1,7 @@
 /// @description Decrease Player Size
 
 // Check if player is too small
-if (self.image_yscale > (24 / 5000))
+if (sprite_height > 36)
 {
 	// Set Scale amount
 	rescaleSize = 0.8;

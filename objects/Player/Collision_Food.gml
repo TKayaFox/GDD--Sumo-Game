@@ -1,7 +1,7 @@
 /// @description Increase Player Size
 
 // Check to see if the scale is too big
-if (self.image_yscale < room_height) 
+if (sprite_height <= room_height) 
 {
 	// Set variables to rescale the Sumo
 	rescaleSize = 1.25;
@@ -39,7 +39,14 @@ if (self.image_yscale < room_height)
 		}
 	}
 	until (otherCollision == noone);
+	
+	// Destroy food
+	instance_destroy(other)
+}
+else
+{
+	// Destroy food
+	instance_destroy(other)
 }
 
-// Destroy food
-instance_destroy(other)
+
