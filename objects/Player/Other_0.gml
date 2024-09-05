@@ -1,13 +1,19 @@
+<<<<<<< Updated upstream
 /// @description Destroy and Update Score
 
 //destroy the player
+=======
+/// @description Destroy and Update score
+
+// Destroy the player
+>>>>>>> Stashed changes
 instance_destroy();
 instance_destroy(Player_2);
 
-//updates player score and game round, resets character by re-creating them in the room again
-Controller.player2_score ++;
+// Updates player score and game round, resets character by re-creating them in the room again
 Controller.game_round ++;
 Controller.player_two_wins ++;
 
-instance_create_layer(1088,640, "Instances",Player)
-instance_create_layer(192,96, "Instances",Player_2)
+// Spawn both sumos back into the center
+instance_create_layer(544,352, "Instances",Player);
+instance_create_layer(704,352, "Instances",Player_2);

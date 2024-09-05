@@ -1,5 +1,6 @@
 ///@description Player Movement
 
+<<<<<<< Updated upstream
 //Collect movement input
 //	Note: Movement input is currently hardcoded to allow different inputs for Player 1 and Player 2
 
@@ -30,4 +31,10 @@ if (otherCollision != noone)
     otherCollision.y += vsp;
 	
 }
+=======
+///Use movement script to determine behavior
+/* The movement script handles movement AND collision detection.
+*/
+>>>>>>> Stashed changes
 
+movement(keyboard_check(left_key), keyboard_check(right_key), keyboard_check(up_key), keyboard_check(down_key), hsp, vsp, movespeed);
